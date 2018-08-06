@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/groupnameet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="请选择保险公司"
+        android:textColor="@color/mall_selector_order_paytype"
+        android:textSize="12sp" />
+
+
+    <GridView
+        android:id="@+id/gridView"
+        android:clickable="true"
+        android:focusable="true"
+        android:listSelector="#00000000"
+        android:verticalSpacing="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:numColumns="2">
+    </GridView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:background="@drawable/me_shape_eclass"
+            android:button="@null"
+            android:gravity="center"
+            android:text="取消"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/mall_bg_1DC97C"
+            android:textSize="12sp">
+        </Button>
+
+        <Button
+            android:id="@+id/btn_sure"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="30dp"
+            android:background="@drawable/mall_shape_sure"
+            android:button="@null"
+            android:text="确认"
+            android:textColor="#ffffff"
+            android:textSize="12sp">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

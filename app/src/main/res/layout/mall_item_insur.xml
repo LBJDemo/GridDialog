@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/rb03"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="30dp"
+        android:background="@drawable/selector_insur_btn"
+        android:button="@null"
+        android:gravity="center"
+        android:clickable="false"
+        android:text="平安保险"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/mall_selector_order_paytype"
+        android:textSize="12sp">
+    </TextView>
+</LinearLayout>
